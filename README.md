@@ -48,17 +48,18 @@ A player loses by selecting the wrong node.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/GuessingGame.git
-cd GuessingGame
+git clone https://github.com/Vincent010525/Grid-Duel.git
+cd Grid-Duel/src
 ```
 
 Run the program:
 
 ```bash
-java GuessingGame
+javac GridDuel.java
+java GridDuel
 ```
 
-JavaFX must be installed or included through your build configuration.
+Note: Grid-Duel uses JavaFX. JavaFX must be installed and correctly referenced on your system.
 
 ---
 
