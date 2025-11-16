@@ -15,7 +15,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import java.io.File;
 
-public class GuessingGame extends Application implements ReceiverHandler{
+public class GridDuel extends Application implements ReceiverHandler{
     private BorderPane root;
     private StackPane center;
     private GridPane myGridPane;
@@ -121,7 +121,7 @@ public class GuessingGame extends Application implements ReceiverHandler{
         });
 
         stage.setScene(new Scene(root));
-        stage.setTitle("GuessingGame");
+        stage.setTitle("GridDuel");
         stage.show();
         root.setCenter(textBox);
     }
